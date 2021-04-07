@@ -2,11 +2,14 @@
 # Lab 17 for Dr. Waxman's CS211
 
 ## Name:  
+  Chi Tse (Ricky)
 
 ### How much time did it take you to complete this exercise?
-  
+  15 minutes
   
 ### What challenges (if any) did you work through to finish this assignment?
-
+  None
 
 ### Did you use any external resources? (Cite them below)
+  I got this code from a buddy of mine.
+  
