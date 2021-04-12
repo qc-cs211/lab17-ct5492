@@ -2,20 +2,23 @@
 #include <cstring>
 using namespace std;
 
-int main(){
-    char a[] = "Hello";
-
-    //way 1
-    for (int i = 0; i < strlen(a); i++) cout << a[i];
+//way 1
+void print_string1(char * s){
+    for (int i = 0; i < strlen(s); i++) cout << s[i];
     cout << endl;
-    
-    //way 2
-    int j = 0;
-    while (a[j] != '\0') {
-        cout << a[j];
-        j++;
+}
+
+//way 2
+void print_string2(char * s){
+    while (*s) {
+        cout << *s;
+        s++;
     }
     cout << endl;
+}
 
+int main(){
+	print_string1("Happy birthday!");        
+	print_string2("Wednesday is hump day and let's get to work!");        
     return 0;
 }
